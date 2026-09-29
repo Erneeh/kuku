@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="lt">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kuku — Teisinė informacija</title>
+    <meta
+      name="description"
+      content="Kuku vaikų mokymosi programėlė — privatumo politika ir naudojimo sąlygos."
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="top">
+      <a class="brand" href="/">Kuku</a>
+      <nav>
+        <a href="/privacy/">Privatumas</a>
+        <a href="/terms/">Sąlygos</a>
+      </nav>
+    </header>
+    <main class="hero">
+      <h1>Kuku</h1>
+      <p>
+        Vaikų mokymosi programėlė. Čia rasite privatumo politiką ir naudojimo
+        sąlygas.
+      </p>
+      <div class="links">
+        <a class="btn" href="/privacy/">Privatumo politika</a>
+        <a class="btn ghost" href="/terms/">Naudojimo sąlygos</a>
+      </div>
+    </main>
+    <footer>
+      <p>
+        © <span id="y"></span> Kuku. Susisiekite:
+        <a href="mailto:support@mokykliukas.app">support@mokykliukas.app</a>
+      </p>
+    </footer>
+    <script>
+      document.getElementById('y').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
